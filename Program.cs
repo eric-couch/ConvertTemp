@@ -35,7 +35,8 @@ namespace UserDefinedMethods
 
             if (converttype == "c")
             {
-                Console.WriteLine(temp + "F = " + FahrenheitToCelsius(temp) + "C" );
+                //Console.WriteLine(temp + "F = " + FahrenheitToCelsius(temp) + "C" );
+                Console.WriteLine($"F = {FahrenheitToCelsius(temp)}C");
             } else
             {
                 Console.WriteLine(temp + "C = " + CelsiusToFahrenheit(temp) + "F");
